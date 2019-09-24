@@ -148,7 +148,7 @@ namespace AndroidResourceResize1
                 //mdpi
                 SaveResources(sourcePath, Path.Combine(OutputDialog.SelectedPath, "drawable-mdpi"), widthConstraint, heightConstraint, 1);
             }
-            if (mdpi.Checked)
+            if (hdpi.Checked)
             {
                 //hdpi
                 SaveResources(sourcePath, Path.Combine(OutputDialog.SelectedPath, "drawable-hdpi"), widthConstraint, heightConstraint, 1.5);
